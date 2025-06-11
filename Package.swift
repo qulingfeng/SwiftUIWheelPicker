@@ -1,13 +1,17 @@
+// swift-tools-version:5.7
+import PackageDescription
+
 let package = Package(
     name: "SwiftUIWheelPicker",
-+   defaultLocalization: "en",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
             name: "SwiftUIWheelPicker",
-            targets: ["SwiftUIWheelPicker"]),
+            targets: ["SwiftUIWheelPicker"]
+        ),
     ],
     targets: [
         .target(
